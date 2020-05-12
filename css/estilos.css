@@ -1,0 +1,35 @@
+
+body {
+    background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.7) 100%), url(bg.png) repeat 0 0, url(https://cdn.sstatic.net/stackoverflow/img/apple-touch-icon.png) repeat 0 0;
+    background-image: url("https://cdn.pixabay.com/photo/2018/04/03/22/10/background-3288243_960_720.jpg");
+    background-size: auto 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    opacity: 0.5;
+}
+
+img {
+    opacity: 0.7;
+  }
+
+.menu {
+    background-color: white;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu li {
+    list-style: none;
+}
+
+a {
+    color: teal;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
